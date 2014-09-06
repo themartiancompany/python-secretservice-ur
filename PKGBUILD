@@ -1,4 +1,5 @@
-# Maintainer: Patrice Peterson <runiq at archlinux dot us>
+# Maintainer: Felix Yan <felixonmars@archlinux.org>
+# Contributor: Patrice Peterson <runiq at archlinux dot us>
 # Contributor: JonnyJD <arch@JonnyJD.net>
 
 pkgbase=python-secretstorage

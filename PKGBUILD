@@ -6,7 +6,7 @@
 pkgname=python-secretstorage
 _pkgname=SecretStorage
 pkgver=3.3.3
-pkgrel=2
+pkgrel=3
 pkgdesc="Securely store passwords and other private data using the SecretService DBus API"
 arch=('any')
 url="https://github.com/mitya57/secretstorage"
@@ -33,5 +33,5 @@ package() {
   cd $_pkgname-$pkgver
 
   python -m installer --destdir="$pkgdir" dist/*.whl
-  install -Dm 644 LICENSE "$pkgdir"/usr/share/licenses/$pkgname/LICENSE
+  install -Dm644 LICENSE -t "$pkgdir"/usr/share/licenses/$pkgname/
 }

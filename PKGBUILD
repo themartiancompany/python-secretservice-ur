@@ -26,7 +26,7 @@ build() {
 check() {
   cd $_pkgname-$pkgver
 
-  dbus-launch xvfb-run -a python -m unittest discover -s tests || echo "Tests failed"
+  dbus-launch xvfb-run -a python -m unittest discover -s tests
 }
 
 package() {
